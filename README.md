@@ -48,7 +48,6 @@ Help:
 ```python
 from timeloading import *
 
-
 # func1:
 def func1():
     time.sleep(3)
@@ -74,13 +73,11 @@ exec(timeloading(animation=["[*  ]","[ * ]","[  *]","[ * ]",],time_w=0.1).loadin
 from hexor import * # pip install hexor
 
 p2=hexor(True,"hex")
-
 s0=p2.c("*","#ff0000")
 s1=p2.c("*","#760e0e")
 s2=p2.c("*","#ff7272")
 
 l=[f"[{s0}{s1}{s2}]",f"[{s1}{s2}{s0}]",f"[{s2}{s0}{s1}]"]
-
 exec(timeloading(animation=l,time_w=0.1).loading(function="func2",args=[5],msg="Loading....",done="ok"))
 ```
 
