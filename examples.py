@@ -10,7 +10,7 @@ def func2(x):
 
 # example-1:
 # Run the wait function "func1" for 3 seconds with default settings.
-exec(timeloading().loading(function="func1"))
+exec(timeloading().loading(function="func1")) # You can run the code directly without using exec() and write the code that returns directly from the function.
 
 # example-2:
 # Run the wait function "func2" for 5 seconds and change the message settings.
@@ -24,10 +24,10 @@ exec(timeloading(animation=["[*  ]","[ * ]","[  *]","[ * ]",],time_w=0.1).loadin
 # Example with color
 from hexor import * # pip install hexor
 
-p2=hexor(True,"hex")
-s0=p2.c("*","#ff0000")
-s1=p2.c("*","#760e0e")
-s2=p2.c("*","#ff7272")
+p1=hexor(True,"hex")
+s0=p1.c("*","#ff0000")
+s1=p1.c("*","#760e0e")
+s2=p1.c("*","#ff7272")
 
 l=[f"[{s0}{s1}{s2}]",f"[{s1}{s2}{s0}]",f"[{s2}{s0}{s1}]"]
 exec(timeloading(animation=l,time_w=0.1).loading(function="func2",args=[5],msg="Loading....",done="ok"))
