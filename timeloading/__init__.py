@@ -28,16 +28,9 @@ class timeloading:
             x=""
         if args!="":
             args=f",args={args}"
-        x=f"""
-exit_flag=False
-x1=Process(target=timeloading.loading_bar,args=({x}{self.animation}{x},exit_flag,"{msg}",{self.time_w}))
-x1.start()
-x2=Process(target={function}{args})
-x2.start()
-x2.join()
-x1.terminate()
-#x2.terminate()
-print("{done}")
-exit_flag=True"""
+        x=f"""exit_flag=False
+x1=Process(target=timeloading.loading_bar,args=({x}{self.animation}{x},exit_flag,"{msg}",{self.time_w}));x1.start()
+x2=Process(target={function}{args});x2.start();x2.join()
+x1.terminate();print("{done}");exit_flag=True"""
         return x
 #}END.
