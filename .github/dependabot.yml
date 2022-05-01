@@ -1,0 +1,6 @@
+version: 1
+updates:
+  - package-ecosystem: "pip" # pip
+    directory: "/"
+    schedule:
+      interval: "daily"
