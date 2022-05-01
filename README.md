@@ -2,7 +2,7 @@
 
 <p>Animated loading bar. This package is a loading bar that appears when a specific function is run an animation and text. This bar is stoped to run after the function has finished working. You can control the shape and the waiting message, even the animation and its colors.</p>
 
-[![Python package](https://github.com/yasserbdj96/timeloading/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/yasserbdj96/timeloading/actions/workflows/python-app.yml) [![CodeFactor](https://www.codefactor.io/repository/github/yasserbdj96/timeloading/badge)](https://www.codefactor.io/repository/github/yasserbdj96/timeloading)
+[![Python package](https://github.com/yasserbdj96/timeloading/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/yasserbdj96/timeloading/actions/workflows/python-app.yml) [![Docker image](https://github.com/yasserbdj96/timeloading/actions/workflows/docker-image.yml/badge.svg)](https://github.com/yasserbdj96/timeloading/actions/workflows/docker-image.yml) [![CodeFactor](https://www.codefactor.io/repository/github/yasserbdj96/timeloading/badge)](https://www.codefactor.io/repository/github/yasserbdj96/timeloading)
 
 <h2>Languages:</h2>
 * python3
